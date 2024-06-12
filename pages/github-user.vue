@@ -1,5 +1,9 @@
 <script setup>
 const { data: user } = useFetch("https://api.github.com/users/gunawan-ctrl");
+
+useHead({
+  title: "Gunawan Page",
+});
 </script>
 
 <template>

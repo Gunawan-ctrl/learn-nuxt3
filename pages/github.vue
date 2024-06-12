@@ -1,5 +1,8 @@
 <script setup>
 const { data: users } = useFetch("https://api.github.com/users");
+useHead({
+  title: "GitHub Users",
+});
 </script>
 
 <template>
